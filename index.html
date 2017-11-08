@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trello</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="m1">  <!--ENCABEZADO, ICONOS, LOGOTIPO E IMAGEN-->
+		<nav>
+			<ul>
+			  <div class="m2">	
+				<li><i class="fa fa-trello fa-2x" aria-hidden="true"></i></li>
+				<li>Tableros</li>
+			  </div>		
+				<li><i class="fa fa-search fa-2x" aria-hidden="true"></i></li>
+				<li><img src="assets/img/trello-logo-white.svg" alt="" class="logo"></li>
+				<li><i class="fa fa-plus  fa-2x" aria-hidden="true"></i></li>
+				<li><i class="fa fa-info-circle  fa-2x" aria-hidden="true"></i></li>
+				<li><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></li>
+				<li><img src="assets/img/keynote-aral-balkan-round_1.png" alt="" class="boy"></li>
+			</ul>
+		</nav>
+	</header>  <!--FIN ENCABEZADO-->
+
+	<section class="tit1"> <!--PAGINA CENTRAL FONDO, PARRAFOS E ICONOS-->
+	     <h1>Tablero - Reto de Código</h1>
+		 <i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+
+		
+		 <i class="fa fa-print fa-2x" aria-hidden="true"></i>
+		 <h2>Privado</h2>
+		
+	<!--FIN FONDO CENTRAL-->
+
+	<!--AÑADIR LISTA, HOVER, PARRAFO, HACER CLIK-->
+		<div class="container1">
+			<p>Añadir una lista...</p>
+		</div>
+	</section>
+       
+	<section>
+		<div class="container2">
+			<textarea class="txt" id="comment" placeholder="Añadir una lista..."></textarea>
+			<br>
+			<button type="button" id="btn" onclick="add()">Agregar</button>
+		<!--contenedor de comentarios-->
+		<div id="cont"></div>	
+	    </div>
+	</section>
+	
+</body>
+</html>

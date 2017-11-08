@@ -1,0 +1,131 @@
+body{
+    margin: 0,auto;
+	font-family: sans-serif;
+	
+}
+/*HEADER*/
+ul{
+	list-style: none;
+	background: #246C95;
+	color:white;
+	padding: 7px;
+	margin:0;
+}
+
+li{
+	display: inline-block;
+}
+.m2{
+	background: #4C93C0;
+	display: inline-block;
+	padding: 6px;
+	border-radius: 4%;
+}
+.fa.fa-trello{
+	margin-left: 5px;
+	padding-bottom: 3px;
+	padding-right:30px;
+}
+
+.fa.fa-search{
+	background: #4C93C0;
+	padding: 7px;
+	padding-left: 300px;
+	padding-bottom: 10px;
+	border-radius: 2%;
+
+
+}
+.logo{
+	height: 25px;
+	width: 90px;
+	margin-left: 200px;
+
+}
+.fa.fa-plus{
+	background: #4C93C0;
+	padding: 7px;
+	border-radius: 3%;
+	margin-left: 400px;	
+}
+.fa.fa-info-circle{
+	background: #4C93C0;
+	padding: 7px;
+	border-radius: 3%;
+	margin-left: 5px;	
+}
+.fa.fa-bell-o{
+	background: #4C93C0;
+	padding: 7px;
+	border-radius: 3%;
+	margin-left: 5px;	
+}
+.boy{
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;	
+}
+/*FIN HEADER*/
+
+/*SECTION BACKGROUND COLOR , PARRAFO, ICONOS*/
+
+.tit1{
+	background: #0079BF;
+	color:white;
+	height: 500px;
+	width: 1402px;
+	padding-top: 8px;
+	padding-left: 20px;
+}
+
+h1{
+	font-weight: 200;
+	display: inline-block;
+}
+h1:hover{
+	background: #246C95;
+	width: 270px;
+	padding: 5px;
+}
+.fa.fa-star-o{
+	margin-left: 7px;
+	padding: 5px;
+}
+.fa.fa-star-o:hover{
+	background: #246C95;
+	width: 30px;
+	padding: 7px;
+}
+
+.fa.fa-print{
+	margin-left: 7px;
+	padding: 5px;
+}
+.fa.fa-print:hover{
+	background: #246C95;
+	width: 30px;
+	padding: 7px;
+}
+h2{
+	font-size: 18px;
+	font-weight: 200;
+	margin-left: 15px;
+	display: inline-block;
+}
+h2:hover{
+	background: #246C95;
+	width: 270px;
+	padding: 5px;
+}
+
+/*CIERRE BACKGROUND COLOR, PARRAFO, ICONOS*/
+
+/* INICIO CUADRO INTERACTIVO*/
+
+p{
+	background: #246C95;
+	width: 250px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
