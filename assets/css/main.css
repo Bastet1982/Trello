@@ -76,6 +76,7 @@ li{
 	width: 1402px;
 	padding-top: 8px;
 	padding-left: 20px;
+	display: inline-block;
 }
 
 h1{
@@ -119,13 +120,24 @@ h2:hover{
 }
 
 /*CIERRE BACKGROUND COLOR, PARRAFO, ICONOS*/
-
-/* INICIO CUADRO INTERACTIVO*/
-
-p{
-	background: #246C95;
-	width: 250px;
-	padding: 10px;
-	margin-left: 5px;
+#btn{
+    background: #4C93C0;
+    height: 30px;
+    width:150px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    left:50px;
+    top:-350px;
 }
-
+.guardar{
+	background: #4C93C0;
+    height: 30px;
+    width:150px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* INICIO CUADRO INTERACTIVO*/

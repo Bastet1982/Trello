@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trello</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header class="m1">  <!--ENCABEZADO, ICONOS, LOGOTIPO E IMAGEN-->
@@ -31,24 +31,15 @@
 		
 		 <i class="fa fa-print fa-2x" aria-hidden="true"></i>
 		 <h2>Privado</h2>
-		
+	</section>	
 	<!--FIN FONDO CENTRAL-->
 
-	<!--AÑADIR LISTA, HOVER, PARRAFO, HACER CLIK-->
-		<div class="container1">
-			<p>Añadir una lista...</p>
-		</div>
-	</section>
-       
-	<section>
-		<div class="container2">
-			<textarea class="txt" id="comment" placeholder="Añadir una lista..."></textarea>
-			<br>
-			<button type="button" id="btn" onclick="add()">Agregar</button>
-		<!--contenedor de comentarios-->
-		<div id="cont"></div>	
-	    </div>
-	</section>
-	
+	<!--AÑADIR LISTA, PARRAFO, HACER CLIK-->
+	<div id="container">
+		<button id="btn" onclick="trello()">Añadir una lista...</button>
+	</div>
+	<div id="contiene"></div>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
